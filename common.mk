@@ -309,6 +309,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     rfs_msm_mpss_readonly_vendor_fsg_symlink
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    Remove_Packages
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors-service.multihal
